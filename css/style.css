@@ -275,7 +275,7 @@ button:hover {
 }
 
 /* Laptop */
-@media (min-width: 769px) and (max-width:1440px){
+@media (min-width: 1180px) and (max-width:1440px){
 /*DASHBOARD SECTION*/
 /*TITLE PARTS*/
 .hero-section {
@@ -1357,7 +1357,7 @@ button:hover {
 }
 
 /* Tablet */
-@media (min-width:435px) and (max-width: 768px){  
+@media (min-width:768px) and (max-width: 1179px){  
 .content{
   background-image: url("../images/bg-dashboard.png");
   background-size: 770px auto;
@@ -2510,7 +2510,7 @@ button:hover {
 }
 
 /* NORMAL PHONE */
-@media (min-width:381px) and (max-width:430px){
+@media (min-width:381px) and (max-width:767px){
 .login-container {
   text-align: center;
   width: 300px;
