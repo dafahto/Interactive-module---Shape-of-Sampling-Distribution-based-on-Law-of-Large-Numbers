@@ -621,7 +621,7 @@ if (section === "Quizzes") {
 
 <div class="quiz-grid">
 
-      <div class="quiz-dashboard-card full-width" onclick="window.open('https://wayground.com/join?gc=66478897', '_blank')">
+      <div class="quiz-dashboard-card full-width" onclick="window.open('https://wayground.com/join?gc=51071497', '_blank')">
       <div class="quiz-icon green">
         <i class="fa-regular fa-lightbulb"></i>      
       </div>
@@ -636,7 +636,7 @@ if (section === "Quizzes") {
       </div>
     </div>
 
-      <div class="quiz-dashboard-card full-width" onclick="window.open('https://wayground.com/join?gc=19456817', '_blank')">
+      <div class="quiz-dashboard-card full-width" onclick="window.open('https://wayground.com/join?gc=36823025', '_blank')">
       <div class="quiz-icon purple">
         <i class="fa-regular fa-lightbulb"></i>
       </div>
@@ -651,7 +651,7 @@ if (section === "Quizzes") {
       </div>
     </div>
 
-      <div class="quiz-dashboard-card" onclick="window.open('https://wayground.com/join?gc=64021297', '_blank')">
+      <div class="quiz-dashboard-card" onclick="window.open('https://wayground.com/join?gc=55462409', '_blank')">
       <div class="quiz-icon blue">
         <i class="fa-regular fa-lightbulb"></i>
       </div>
@@ -666,7 +666,7 @@ if (section === "Quizzes") {
       </div>
     </div>
 
-      <div class="quiz-dashboard-card" onclick="window.open('https://wayground.com/join?gc=33952561', '_blank')">
+      <div class="quiz-dashboard-card" onclick="window.open('https://wayground.com/join?gc=28723721', '_blank')">
       <div class="quiz-icon pink">
         <i class="fa-regular fa-lightbulb"></i>
       </div>
@@ -681,7 +681,7 @@ if (section === "Quizzes") {
       </div>
     </div>
 
-      <div class="quiz-dashboard-card" onclick="window.open('https://wayground.com/join?gc=61215537', '_blank')">
+      <div class="quiz-dashboard-card" onclick="window.open('https://wayground.com/join?gc=35015177', '_blank')">
       <div class="quiz-icon yellow">
         <i class="fa-regular fa-lightbulb"></i>
       </div>
