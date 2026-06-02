@@ -702,7 +702,7 @@ if (section === "Quizzes") {
 function handleNotesCard(element, pdfPath){
 
     // PHONE ONLY
-    if(window.innerWidth < 440){
+    if(window.innerWidth < 767){
 
         window.open(pdfPath, "_blank");
         return;
@@ -877,7 +877,7 @@ const sidebar = document.getElementById("sidebar");
 const content = document.getElementById("content");
 
 /* FOR TABLET */
-if(window.innerWidth <= 768){
+if(window.innerWidth <= 1179){
 
     sidebar.classList.add("collapsed");
 
