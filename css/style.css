@@ -1491,8 +1491,8 @@ button:hover {
   gap: 8px;
   grid-template-columns: 1fr;  
   padding-bottom: 20px;
-  max-width: 800px;
-  width: 95%;
+  max-width: 1150px;
+  width: 96%;
 }
 
 .dashboard-card {
@@ -1523,7 +1523,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-right: 15px;
   flex-shrink: 0;
   border: 2px solid rgba(255,255,255,0.5);
@@ -1679,7 +1679,7 @@ button:hover {
   display: flex;
   flex-direction:column;
   margin-left: 5px;
-  max-width: 950px;
+  max-width: 1150px;
   width: 95%;
 }
 
@@ -1695,14 +1695,14 @@ button:hover {
   display:flex;
   flex-direction:column;
   gap:10px;
+  max-width: 1150px;
+  width: 100%;
 }
 
 .notes-card{
   margin-left: -5px;
-  max-width: 700px;
-  width: 100%;
-  padding-right: 10px;
-  border-radius: 35px;
+  padding-right: 25px;
+  border-radius: 25px;
   border: 1px solid rgba(255,255,255,0.4);
   backdrop-filter: blur(10px);
 }
@@ -1710,8 +1710,8 @@ button:hover {
 /* CARD HEADER */
 .notes-card-header {
   background: rgba(255,255,255,0.78);
-  border-radius: 15px;
-  padding: 5px 24px;
+  border-radius: 25px;
+  padding: 10px 24px;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -1750,8 +1750,8 @@ button:hover {
 
 /* ICON */
 .topic-icon {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 15px;
   margin-left: -10px;
   margin-top: 2px;
@@ -1971,18 +1971,19 @@ button:hover {
   text-align: justify;
   margin-left: -10px;
   margin-bottom: -30px;
-  max-width: 650px;
+  max-width: 1150px;
+  width: 100%;
 }
 
 .video-banner-img{
   display:block;
-  width:300px;
+  width:350px;
   margin:0 auto 0 auto;
 }
 
 /*BOX BOX VIDEO*/
 .video-card{
-  height: 80px;
+  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1995,7 +1996,7 @@ button:hover {
   cursor: pointer;
   width: 96%;
   margin-right: 20px;
-  max-width: 700px;
+  max-width: 1150px;
   border-radius: 25px;
   margin-left: -1px;
   margin-bottom: 8px;
@@ -2037,10 +2038,10 @@ button:hover {
 }
 
 .video-icon{
-  width: 70px;
+  width: 80px;
   height: 60px;
   border-radius: 12px;
-  margin-left: 10px;
+  margin-left: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2166,7 +2167,7 @@ button:hover {
   padding: 12px 24px;
   background: rgba(255,255,255,0.75);
   border-radius: 16px;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 600;
   color: #24314f;
   cursor: pointer;
@@ -2181,12 +2182,13 @@ button:hover {
 
 .video-title{
   color: #22304d;
-  font-size: 18px;
+  font-size: 25px;
   margin-top: 20px;
   margin-bottom: 15px;
   font-weight: 700;
   text-align: center;
-  max-width: 700px;
+  max-width: 1150px;
+  width: 98%;
 }
 
 .video-container{
@@ -2194,8 +2196,8 @@ button:hover {
   justify-content: center;
   align-items: center;
   margin: 20px auto;
-  max-width: 550px;
-  width: 100%;
+  max-width: 1150px;
+  width: 80%;
   background: #fff;
   border-radius: 15px;
   overflow: hidden;
@@ -2219,14 +2221,14 @@ button:hover {
 .worksheet-grid{
   gap: 8px;
   grid-template-columns: 1fr;  
-  width: 100%;
+  width: 98%;
   padding-right: 15px;
   margin-left: -2px;
 }
 
 .worksheet-card{
   margin-bottom: 10px;
-  height: 80px;
+  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2257,8 +2259,8 @@ button:hover {
 }
 
 .worksheet-icon{
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 22px;
   display:flex;
   align-items:center;
@@ -2270,7 +2272,7 @@ button:hover {
 }
 
 .worksheet-icon i{
-    font-size: 26px;
+    font-size: 28px;
     color: inherit;
 }
 
@@ -2351,7 +2353,7 @@ button:hover {
   max-width: 220px;
   margin-right: 20px;
   margin-left: -20px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .quiz-grid {
@@ -2360,7 +2362,7 @@ button:hover {
   gap: 10px;
   margin-top: -2px;
   margin-left: 5px;
-  max-width: 750px;
+  max-width: 1150px;
   width: 98%;
   padding-right: 25px;
 }
@@ -2373,7 +2375,7 @@ button:hover {
   border-radius: 25px;
   padding: 24px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
-  height: 80px;
+  height: 90px;
   border: 1px solid rgba(255,255,255,0.4);
   backdrop-filter: blur(10px);
   transition: 0.3s cubic-bezier(.22,1,.36,1);
@@ -2387,10 +2389,10 @@ button:hover {
 
 .quiz-icon {
   margin-left: -10px;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 15px;
-  font-size: 27px;
+  font-size: 30px;
   background: white;
   display: flex;
   align-items: center;
