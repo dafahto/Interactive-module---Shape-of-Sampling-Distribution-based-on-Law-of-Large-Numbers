@@ -275,7 +275,7 @@ button:hover {
 }
 
 /* Laptop */
-@media (min-width: 1180px) and (max-width:1440px){
+@media (min-width: 1191px) and (max-width:1440px){
 /*DASHBOARD SECTION*/
 /*TITLE PARTS*/
 .hero-section {
@@ -1341,7 +1341,7 @@ button:hover {
 }
 
 /* Tablet */
-@media (min-width:451px) and (max-width: 1179px){  
+@media (min-width:451px) and (max-width: 1190px){  
 .content{
   background-image: url("../images/bg-dashboard.png");
   background-size: 1180px auto;

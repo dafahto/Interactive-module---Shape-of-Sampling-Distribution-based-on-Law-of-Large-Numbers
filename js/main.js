@@ -725,7 +725,7 @@ content.innerHTML = `
 function handleNotesCard(element, pdfPath){
 
     // TABLET AND PHONE ONLY
-    if(window.innerWidth < 1179){
+    if(window.innerWidth < 1190){
 
         window.open(pdfPath, "_blank");
         return;
@@ -910,7 +910,7 @@ if(window.innerWidth <= 1440){
 content.addEventListener("click", () => {
 
     if(
-        window.innerWidth <= 1179 &&
+        window.innerWidth <= 1190 &&
         !sidebar.classList.contains("collapsed")
     ){
 
@@ -927,7 +927,7 @@ window.addEventListener("message", (event) => {
     const sidebar = document.getElementById("sidebar");
 
     if(
-        window.innerWidth <= 1179 &&
+        window.innerWidth <= 1190 &&
         !sidebar.classList.contains("collapsed")
     ){
         sidebar.classList.add("collapsed");
