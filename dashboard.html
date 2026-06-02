@@ -67,5 +67,11 @@
 
 <script src="js/main.js"></script>
 
+<script>
+document.addEventListener("click", () => {
+    parent.postMessage("collapseSidebar", "*");
+});
+</script>
+
 </body>
 </html>

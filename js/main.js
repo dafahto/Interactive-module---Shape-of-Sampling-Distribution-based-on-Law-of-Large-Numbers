@@ -155,7 +155,7 @@ if (section === "notes") {
       <!-- Notes 1 -->
       <div class="notes-card">
 
-    <div class="notes-card-header" onclick="handleNotesCard(this, 'notes/notes1.pdf')">
+    <div class="notes-card-header">
 
         <div class="notes-header-left">
 
@@ -170,7 +170,8 @@ if (section === "notes") {
         </div>
 
         <div class="notes-header-right">
-          <div class="slides-badge open status-text blue">
+          <div class="slides-badge open status-text blue"
+             onclick="handleNotesCard(this.parentElement.parentElement, 'notes/notes1.pdf')">
             Open
           </div>
         </div>
@@ -184,7 +185,7 @@ if (section === "notes") {
       <!-- Notes 2 -->
       <div class="notes-card">
 
-    <div class="notes-card-header" onclick="handleNotesCard(this, 'notes/notes2.pdf')">
+    <div class="notes-card-header">
 
         <div class="notes-header-left">
 
@@ -199,7 +200,8 @@ if (section === "notes") {
         </div>
 
         <div class="notes-header-right">
-          <div class="slides-badge open status-text purple">
+          <div class="slides-badge open status-text purple"
+          onclick="handleNotesCard(this.parentElement.parentElement, 'notes/notes2.pdf')">
             Open
           </div>
         </div>
@@ -213,7 +215,7 @@ if (section === "notes") {
       <!-- Notes 3 -->
       <div class="notes-card">
 
-    <div class="notes-card-header" onclick="handleNotesCard(this, 'notes/notes3.pdf')">
+    <div class="notes-card-header">
 
         <div class="notes-header-left">
           <div class="topic-icon green">
@@ -227,7 +229,8 @@ if (section === "notes") {
         </div>
 
         <div class="notes-header-right">
-          <div class="slides-badge open status-text green">
+          <div class="slides-badge open status-text green"
+            onclick="handleNotesCard(this.parentElement.parentElement, 'notes/notes3.pdf')">
             Open
           </div>
         </div>
@@ -241,7 +244,7 @@ if (section === "notes") {
       <!-- Notes 4 -->
       <div class="notes-card">
 
-    <div class="notes-card-header" onclick="handleNotesCard(this, 'notes/notes4.pdf')">
+    <div class="notes-card-header">
 
         <div class="notes-header-left">
           <div class="topic-icon pink">
@@ -255,7 +258,8 @@ if (section === "notes") {
         </div>
 
         <div class="notes-header-right">
-          <div class="slides-badge open status-text pink">
+          <div class="slides-badge open status-text pink"
+            onclick="handleNotesCard(this.parentElement.parentElement, 'notes/notes4.pdf')">
             Open
           </div>
         </div>
@@ -269,7 +273,7 @@ if (section === "notes") {
       <!-- Notes 5 -->
       <div class="notes-card">
 
-    <div class="notes-card-header" onclick="handleNotesCard(this, 'notes/notes5.pdf')">
+    <div class="notes-card-header">
 
         <div class="notes-header-left">
           <div class="topic-icon yellow">
@@ -283,7 +287,8 @@ if (section === "notes") {
         </div>
 
         <div class="notes-header-right">
-          <div class="slides-badge open status-text yellow">
+          <div class="slides-badge open status-text yellow"
+            onclick="handleNotesCard(this.parentElement.parentElement, 'notes/notes5.pdf')">
             Open
           </div>
         </div>
@@ -318,9 +323,7 @@ if (section === "videos") {
     <div class="videos-list">
 
       <!-- VIDEO 1 -->
-      <div class="video-card"
-      onclick="openVideo('video1.mp4','Introduction to Sampling Distribution')">
-
+      <div class="video-card">
         <div class="video-left">
 
           <div class="video-icon blue">
@@ -334,15 +337,16 @@ if (section === "videos") {
         </div>
 
         <div class="video-right">
-          <button class="watch-btn blue-btn">Watch</button>
+          <button class="watch-btn blue-btn"
+            onclick="openVideo('video1.mp4','Introduction to Sampling Distribution')">
+            Watch
+          </button>
         </div>
 
       </div>
 
       <!-- VIDEO 2 -->
-      <div class="video-card"
-      onclick="openVideo('video2.mp4','Understanding Sampling Distribution')">
-
+      <div class="video-card">
         <div class="video-left">
 
           <div class="video-icon purple">
@@ -356,15 +360,16 @@ if (section === "videos") {
         </div>
 
         <div class="video-right">
-          <button class="watch-btn purple-btn">Watch</button>
+          <button class="watch-btn purple-btn"
+            onclick="openVideo('video2.mp4','Understanding Sampling Distribution')">
+            Watch
+          </button>
         </div>
 
       </div>
 
       <!-- VIDEO 3 -->
-      <div class="video-card"
-      onclick="openVideo('video3.mp4','Law of Large Numbers (LLN)')">
-
+      <div class="video-card">
         <div class="video-left">
 
           <div class="video-icon green">
@@ -378,15 +383,16 @@ if (section === "videos") {
         </div>
 
         <div class="video-right">
-          <button class="watch-btn green-btn">Watch</button>
+          <button class="watch-btn green-btn"
+            onclick="openVideo('video3.mp4','Law of Large Numbers (LLN)')">
+            Watch
+          </button>
         </div>
 
       </div>
 
       <!-- VIDEO 4 -->
-      <div class="video-card"
-      onclick="openVideo('video4.mp4','Relationship Between LLN and Sampling Distribution')">
-
+      <div class="video-card">
         <div class="video-left">
 
           <div class="video-icon pink">
@@ -401,15 +407,16 @@ if (section === "videos") {
         </div>
 
         <div class="video-right">
-          <button class="watch-btn pink-btn">Watch</button>
+          <button class="watch-btn pink-btn"
+            onclick="openVideo('video4.mp4','Relationship Between LLN and Sampling Distribution')">
+            Watch
+          </button>
         </div>
 
       </div>
 
       <!-- VIDEO 5 -->
-      <div class="video-card"
-      onclick="openVideo('video5.mp4','Central Limit Theorem (CLT)')">
-
+      <div class="video-card">
         <div class="video-left">
 
           <div class="video-icon yellow">
@@ -423,7 +430,10 @@ if (section === "videos") {
         </div>
 
         <div class="video-right">
-          <button class="watch-btn yellow-btn">Watch</button>
+          <button class="watch-btn yellow-btn"
+            onclick="openVideo('video5.mp4','Central Limit Theorem (CLT)')">
+            Watch
+          </button>
         </div>
       </div>
     </div>
@@ -465,7 +475,7 @@ if (section === "worksheets") {
       <!-- WORKSHEET 1 -->
       <div class="worksheet-card">
 
-      <div class="worksheet-card-header" onclick="window.open('worksheets/worksheet1.pdf', '_blank')">
+      <div class="worksheet-card-header">
 
           <div class="worksheet-header-left">
 
@@ -482,7 +492,8 @@ if (section === "worksheets") {
 
           <div class="worksheet-header-right">
 
-            <div class="worksheet-badge open status-text blue-btn">
+            <div class="worksheet-badge open status-text blue-btn"
+              onclick="window.open('worksheets/worksheet1.pdf', '_blank')">
               Open
             </div>
           </div>
@@ -493,7 +504,7 @@ if (section === "worksheets") {
       <!-- WORKSHEET 2 -->
       <div class="worksheet-card">
 
-      <div class="worksheet-card-header" onclick="window.open('worksheets/worksheet2.pdf', '_blank')">
+      <div class="worksheet-card-header">
 
           <div class="worksheet-header-left">
 
@@ -510,7 +521,8 @@ if (section === "worksheets") {
 
           <div class="worksheet-header-right">
 
-            <div class="worksheet-badge open status-text purple-btn">
+            <div class="worksheet-badge open status-text purple-btn"
+              onclick="window.open('worksheets/worksheet2.pdf', '_blank')">
               Open
             </div>
           </div>
@@ -521,7 +533,7 @@ if (section === "worksheets") {
       <!-- WORKSHEET 3 -->
       <div class="worksheet-card">
 
-      <div class="worksheet-card-header" onclick="window.open('worksheets/worksheet3.pdf', '_blank')">
+      <div class="worksheet-card-header">
 
           <div class="worksheet-header-left">
 
@@ -538,7 +550,8 @@ if (section === "worksheets") {
 
           <div class="worksheet-header-right">
 
-            <div class="worksheet-badge open status-text green-btn">
+            <div class="worksheet-badge open status-text green-btn"
+              onclick="window.open('worksheets/worksheet3.pdf', '_blank')">
               Open
             </div>
           </div>
@@ -549,7 +562,7 @@ if (section === "worksheets") {
       <!-- WORKSHEET 4 -->
       <div class="worksheet-card">
 
-      <div class="worksheet-card-header" onclick="window.open('worksheets/worksheet4.pdf', '_blank')">
+      <div class="worksheet-card-header">
 
           <div class="worksheet-header-left">
 
@@ -566,7 +579,8 @@ if (section === "worksheets") {
 
           <div class="worksheet-header-right">
 
-            <div class="worksheet-badge open status-text pink-btn">
+            <div class="worksheet-badge open status-text pink-btn"
+              onclick="window.open('worksheets/worksheet4.pdf', '_blank')">
               Open
             </div>
           </div>
@@ -577,7 +591,7 @@ if (section === "worksheets") {
       <!-- WORKSHEET 5 -->
       <div class="worksheet-card">
 
-      <div class="worksheet-card-header" onclick="window.open('worksheets/worksheet5.pdf', '_blank')">
+      <div class="worksheet-card-header">
 
           <div class="worksheet-header-left">
 
@@ -594,7 +608,8 @@ if (section === "worksheets") {
 
           <div class="worksheet-header-right">
 
-            <div class="worksheet-badge open status-text yellow-btn">
+            <div class="worksheet-badge open status-text yellow-btn"
+              onclick="window.open('worksheets/worksheet5.pdf', '_blank')">
               Open
             </div>
           </div>
@@ -609,19 +624,22 @@ if (section === "Quizzes") {
 content.innerHTML = `
 <div class="quiz-top-section">
 
-  <img src="images/quiz-banner.png" class="quiz-banner">
-
   <div class="quiz-text-section">
     <h2 class="quiz-title">Quizzes</h2>
 
     <p class="quiz-section-description">
       Complete the quizzes below to assess your understanding of sampling distribution and improve your statistics skills.    </p>
   </div>
+
+</div>
+
+<div class="quiz-banner-wrapper">
+  <img src="images/quiz-banner.png" class="quiz-banner">
 </div>
 
 <div class="quiz-grid">
 
-      <div class="quiz-dashboard-card full-width" onclick="window.open('https://wayground.com/join?gc=51071497', '_blank')">
+      <div class="quiz-dashboard-card full-width">
       <div class="quiz-icon green">
         <i class="fa-regular fa-lightbulb"></i>      
       </div>
@@ -631,12 +649,13 @@ content.innerHTML = `
         <p>Introduction to Sampling Distribution</p>
       </div>
 
-      <div class="quiz-status green-btn">
+      <div class="quiz-status green-btn"
+        onclick="window.open('https://wayground.com/join?gc=51071497', '_blank')">
         Start 
       </div>
     </div>
 
-      <div class="quiz-dashboard-card full-width" onclick="window.open('https://wayground.com/join?gc=36823025', '_blank')">
+      <div class="quiz-dashboard-card full-width">
       <div class="quiz-icon purple">
         <i class="fa-regular fa-lightbulb"></i>
       </div>
@@ -646,12 +665,13 @@ content.innerHTML = `
         <p>Understanding Sampling Distribution</p>
       </div>
 
-      <div class="quiz-status purple-btn">
+      <div class="quiz-status purple-btn"
+        onclick="window.open('https://wayground.com/join?gc=36823025', '_blank')">
         Start 
       </div>
     </div>
 
-      <div class="quiz-dashboard-card" onclick="window.open('https://wayground.com/join?gc=55462409', '_blank')">
+      <div class="quiz-dashboard-card">
       <div class="quiz-icon blue">
         <i class="fa-regular fa-lightbulb"></i>
       </div>
@@ -661,12 +681,13 @@ content.innerHTML = `
         <p>Law of Large Numbers (LLN)</p>
       </div>
 
-      <div class="quiz-status blue-btn">
+      <div class="quiz-status blue-btn"
+        onclick="window.open('https://wayground.com/join?gc=55462409', '_blank')">
         Start 
       </div>
     </div>
 
-      <div class="quiz-dashboard-card" onclick="window.open('https://wayground.com/join?gc=28723721', '_blank')">
+      <div class="quiz-dashboard-card">
       <div class="quiz-icon pink">
         <i class="fa-regular fa-lightbulb"></i>
       </div>
@@ -676,12 +697,13 @@ content.innerHTML = `
         <p>Relationship Between LLN and Sampling Distribution</p>
       </div>
 
-      <div class="quiz-status pink-btn">
+      <div class="quiz-status pink-btn"
+        onclick="window.open('https://wayground.com/join?gc=28723721', '_blank')">
         Start 
       </div>
     </div>
 
-      <div class="quiz-dashboard-card" onclick="window.open('https://wayground.com/join?gc=35015177', '_blank')">
+      <div class="quiz-dashboard-card">
       <div class="quiz-icon yellow">
         <i class="fa-regular fa-lightbulb"></i>
       </div>
@@ -691,7 +713,8 @@ content.innerHTML = `
         <p>Central Limit Theorem (CLT)</p>
       </div>
 
-      <div class="quiz-status yellow-btn">
+      <div class="quiz-status yellow-btn"
+        onclick="window.open('https://wayground.com/join?gc=35015177', '_blank')">
         Start 
       </div>
     </div>
@@ -895,4 +918,19 @@ content.addEventListener("click", () => {
 
     }
 })
+})
+
+window.addEventListener("message", (event) => {
+
+    if(event.data !== "simulationClicked") return;
+
+    const sidebar = document.getElementById("sidebar");
+
+    if(
+        window.innerWidth <= 1179 &&
+        !sidebar.classList.contains("collapsed")
+    ){
+        sidebar.classList.add("collapsed");
+    }
+
 });
