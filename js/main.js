@@ -649,7 +649,7 @@ content.innerHTML = `
       </div>
 
       <div class="quiz-status green-btn"
-        onclick="window.open('https://wayground.com/join?gc=31771401', '_blank')">
+        onclick="window.open('https://wayground.com/join?gc=39518778', '_blank')">
         Start 
       </div>
     </div>
@@ -665,7 +665,7 @@ content.innerHTML = `
       </div>
 
       <div class="quiz-status purple-btn"
-        onclick="window.open('https://wayground.com/join?gc=45402889', '_blank')">
+        onclick="window.open('https://wayground.com/join?gc=42846985', '_blank')">
         Start 
       </div>
     </div>
@@ -681,7 +681,7 @@ content.innerHTML = `
       </div>
 
       <div class="quiz-status blue-btn"
-        onclick="window.open('https://wayground.com/join?gc=07129865', '_blank')">
+        onclick="window.open('https://wayground.com/join?gc=43895561', '_blank')">
         Start 
       </div>
     </div>
@@ -697,7 +697,7 @@ content.innerHTML = `
       </div>
 
       <div class="quiz-status pink-btn"
-        onclick="window.open('https://wayground.com/join?gc=41732873', '_blank')">
+        onclick="window.open('https://wayground.com/join?gc=37997321', '_blank')">
         Start 
       </div>
     </div>
@@ -713,7 +713,7 @@ content.innerHTML = `
       </div>
 
       <div class="quiz-status yellow-btn"
-        onclick="window.open('https://wayground.com/join?gc=51563273', '_blank')">
+        onclick="window.open('https://wayground.com/join?gc=18074377', '_blank')">
         Start 
       </div>
     </div>
