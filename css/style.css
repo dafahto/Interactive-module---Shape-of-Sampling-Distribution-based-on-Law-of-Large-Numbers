@@ -1429,7 +1429,7 @@ button:hover {
 /*TITLE PARTS*/
 .hero-left {
   width: 94%;
-  margin-left: 20px;
+  margin-left: 30px;
   margin-top: 20px;
   flex: 1;
 }
@@ -1445,7 +1445,7 @@ button:hover {
 }
 
 .hero-left h2 {
-  font-size: 22px;
+  font-size: 23px;
   margin-left: -15px;
   white-space: nowrap;
   color: #22304d;
@@ -1453,7 +1453,7 @@ button:hover {
 
 .hero-left p {
   width: 98%;
-  font-size: 17px;
+  font-size: 19px;
   margin-bottom: 5px;
   margin-top: 15px;
   margin-right: 10px;
@@ -1482,10 +1482,11 @@ button:hover {
 }
 
 .dashboard-card {
+  margin-left: 10px;
   background: rgba(255,255,255,0.75);
   border-radius: 25px;
   margin-top: 10px;
-  height: 90px;
+  height: auto;
   display: flex;
   align-items: center;
   padding: 10px;
@@ -1497,14 +1498,14 @@ button:hover {
 }
 
 .icon-box {
-  width: 70px;
-  height: 70px;
+  width: 75px;
+  height: 75px;
   border-radius: 15px;
-  font-size: 26px;
+  font-size: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-right: 15px;
   flex-shrink: 0;
   border: 2px solid rgba(255,255,255,0.5);
@@ -1519,17 +1520,17 @@ button:hover {
 
 .card-text h3 {
   color: #22304d;
-  font-size: 18px;
+  font-size: 22px;
   margin-left: 5px;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .card-text p {
-  margin-top: -1px;
+  margin-top: -10px;
   margin-left: 5px;
   margin-right: 10px;
-  font-size: 16px;
+  margin-bottom: 10px;
+  font-size: 19px;
   line-height: 1.5;
   font-weight: 500;
   color: #5F6E85;
@@ -1543,7 +1544,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 19px;
+  font-size: 22px;
   margin-left: 10px;
   margin-right: 15px;
   transition: 0.3s cubic-bezier(.22,1,.36,1);
@@ -1659,7 +1660,7 @@ button:hover {
 .notes-top-section {
   display: flex;
   flex-direction:column;
-  margin-left: 5px;
+  margin-left: 15px;
   max-width: 1150px;
   width: 95%;
 }
@@ -1682,7 +1683,7 @@ button:hover {
 }
 
 .notes-card{
-  margin-left: -5px;
+  margin-left: 8px;
   border-radius: 25px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
   border: 1px solid rgba(255,255,255,0.4);
@@ -1704,14 +1705,14 @@ button:hover {
 
 .notes-text h2{
   margin-left: 1px;
-  font-size: 22px;
+  font-size: 23px;
   max-width: 150px;
   color: black;
   font-weight: 800;
 }
 
 .notes-text p{
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.8;
   margin-left: 1px;
   text-align: justify;
@@ -1729,10 +1730,10 @@ button:hover {
 
 /* ICON */
 .topic-icon {
-  width: 70px;
-  height: 70px;
+  width: 75px;
+  height: 75px;
   border-radius: 15px;
-  margin-left: -10px;
+  margin-left: -5px;
   margin-top: 2px;
   margin-right: 10px;
   margin-bottom: 3px;
@@ -1744,7 +1745,7 @@ button:hover {
 }
 
 .topic-icon i {
-  font-size: 26px;
+  font-size: 28px;
 }
 
 /* ICON CICLE COLORS */
@@ -1795,15 +1796,15 @@ button:hover {
 
 /* TEXT */
 .topic-info h3 {
-  font-size: 18px;
+  font-size: 20px;
   margin-right: 10px;
   color: #24314f;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
 .topic-info p {
-  font-size: 16px;
+  font-size: 17px;
   color: #4d5b73;
   margin-top: -5px;
 }
@@ -1822,7 +1823,7 @@ button:hover {
   padding: 6px 17px;
   border-radius: 15px;
   margin-right: -5px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
   border: 0.1px solid;
   transition: 0.3s cubic-bezier(.22,1,.36,1);
@@ -1933,18 +1934,18 @@ button:hover {
 
 .videos-hero-left{
   flex: 1;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 .video-page-title{
-  font-size: 22px;
+  font-size: 23px;
   margin-left: -10px;
   color: black;
   font-weight: 800;
 }
 
 .video-description{
-  font-size: 17px;
+  font-size: 19px;
   color: #22304d;
   line-height: 1.8;
   text-align: justify;
@@ -1966,7 +1967,7 @@ button:hover {
 }
 
 .video-card{
-  height: 90px;
+  height: 95px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1976,24 +1977,24 @@ button:hover {
   box-shadow: 0 10px 30px rgba(0,0,0,0.05);  
   background: rgba(255,255,255,0.75);
   cursor: pointer;
-  width: 96%;
+  width: 95%;
   margin-right: 20px;
   max-width: 1150px;
   border-radius: 25px;
-  margin-left: -1px;
-  margin-bottom: 8px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .video-left{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
 }
 
 .video-left h3{
   max-width: 420px;
-  font-size: 18px;
+  font-size: 21px;
   color: #24314f;
   margin-top: 1px;
   margin-bottom: 6px;
@@ -2002,7 +2003,7 @@ button:hover {
 .video-left p{
   margin: 2px 0 0;
   margin-left: 1px;
-  font-size: 17px;
+  font-size: 19px;
   margin-right: 1px;
   line-height: 1.4;
   color: #4d5b73;
@@ -2018,7 +2019,7 @@ button:hover {
   width: 80px;
   height: 60px;
   border-radius: 12px;
-  margin-left: 5px;
+  margin-left: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2028,15 +2029,15 @@ button:hover {
 }
 
 .video-icon i{
-    font-size: 26px;
-    color: inherit;
+  font-size: 28px;
+  color: inherit;
 }
 
 .video-info{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 3px;
+  gap: 5px;
 }
 
 .blue i{
@@ -2065,7 +2066,7 @@ button:hover {
 }
 
 .watch-btn{
-  font-size: 15px;
+  font-size: 16px;
   border: 1px solid;
   padding: 6px 17px;
   border-radius: 15px;
@@ -2199,9 +2200,10 @@ button:hover {
 .worksheet-grid{
   gap: 8px;
   grid-template-columns: 1fr;  
-  width: 98%;
+  width: 96%;
   padding-right: 15px;
   padding-bottom: 30px;
+  margin-left: 10px;
 }
 
 .worksheet-card{
@@ -2221,21 +2223,21 @@ button:hover {
 }
 
 .worksheet-card-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .worksheet-header-left{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .worksheet-icon{
-  width: 70px;
-  height: 70px;
+  width: 75px;
+  height: 75px;
   border-radius: 22px;
   display:flex;
   align-items:center;
@@ -2247,43 +2249,42 @@ button:hover {
 }
 
 .worksheet-icon i{
-    font-size: 28px;
-    color: inherit;
+  font-size: 28px;
+  color: inherit;
 }
 
 .worksheet-left h3{
-  font-size: 18px;
+  font-size: 21px;
   max-width: 650px;
   color: #24314f;
   line-height: 1.5;
   margin: 0;
-  margin-left: -5px;
+  margin-top: -2px;
   margin-right: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .worksheet-left p{
   margin: 2px 0 0;
-  margin-left: -5px;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.4;
   color: #4d5b73;
 }
 
 .worksheet-header-right{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 25px; /* besarkan gap */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px; /* besarkan gap */
 }
 
 .worksheet-badge{
-  font-size: 15px;
+  font-size: 16px;
   padding: 5px 17px;
   border-radius: 25px;
   font-weight: 600;
   cursor: pointer;
-  margin-right: 25px;
+  margin-right: 15px;
   margin-left: 5px;
   border: 1px solid;
   flex-shrink: 0;
@@ -2301,7 +2302,6 @@ button:hover {
 .quiz-top-section{
   display:flex;
   flex-direction:column;
-  align-items:flex-start;
   margin-top:10px;
   margin-left: 50px;
 }
@@ -2309,14 +2309,15 @@ button:hover {
 .quiz-title {
   color: black;
   margin-left: -30px;
-  font-size: 22px;
+  font-size: 23px;
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: 800;  
 }
 
 .quiz-section-description {
-  font-size: 17px;
+  font-size: 19px;
+  width: 95%;
   margin-left: -30px;
   color: #22304d;
   line-height: 1.8;
@@ -2336,9 +2337,9 @@ button:hover {
   grid-template-columns: 1fr;
   gap: 10px;
   margin-top: -2px;
-  margin-left: 5px;
+  margin-left: 15px;
   max-width: 1150px;
-  width: 98%;
+  width: 97%;
   padding-right: 25px;
   padding-bottom: 30px;
 }
@@ -2360,8 +2361,8 @@ button:hover {
 
 .quiz-icon {
   margin-left: 5px;
-  width: 70px;
-  height: 70px;
+  width: 75px;
+  height: 75px;
   border-radius: 15px;
   font-size: 30px;
   background: white;
@@ -2375,14 +2376,17 @@ button:hover {
 
 .quiz-text h3 {
   margin: 0;
-  font-size: 18px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  font-size: 21px;
   color: #1f2d4a;
 }
 
 .quiz-text p {
   margin: 4px 0 0;
+  margin-left: 5px;
   margin-right: 10px;
-  font-size: 16px;
+  font-size: 19px;
   color: #4d5b73;
   line-height: 1.4;
 }
@@ -2390,8 +2394,8 @@ button:hover {
 .quiz-status {
   margin-left: auto;
   padding: 6px 25px;
-  font-size: 15px;
-  margin-right: 10px;
+  font-size: 16px;
+  margin-right: 15px;
   font-weight: bold;
   flex-shrink: 0;
   border-radius: 25px;
@@ -2484,29 +2488,6 @@ button:hover {
 
 /* NORMAL PHONE */
 @media (max-width:450px){
-.sidebar {
-  position: relative;
-  left: 0px;
-  width: 220px;
-  transition: 0.35s cubic-bezier(.22,1,.36,1);
-  flex-shrink: 0;
-}
-.menu-item {
-  margin-left: 5px;
-  gap: 2px;
-  font-size: 18px;
-  padding: 10px 8px;
-}
-
-.menu-item i{
-  margin-right: 20px;
-  padding-left: 10px;
-}
-
-.menu-item span{
-  margin-right: -5px;
-}
-
 .login-container {
   text-align: center;
   width: 300px;
@@ -2588,15 +2569,16 @@ button:hover {
   background: rgba(255,255,255,0.20);
 }
 
-.sidebar{
+.sidebar {
   position: fixed;
   top: 0;
   left: 0;
   width: 180px;
-  height: 100vh;
-  z-index: 2000;
   transition: 0.35s cubic-bezier(.22,1,.36,1);
   flex-shrink: 0;
+  height: 100vh;
+  z-index: 1000;
+  box-shadow: 8px 0 20px rgba(0,0,0,0.15);
 }
 
 .sidebar.open{
@@ -2618,12 +2600,12 @@ button:hover {
 .menu-item{
   gap: 8px;
   padding:8px 5px;
-  font-size:13px;
+  font-size:15px;
 }
 
 .menu-item i{
-  font-size: 13px;
-  margin-left: 8px;
+  font-size: 15px;
+  margin-left: 4px;
   margin-right: 5px;
 }
 
@@ -2632,11 +2614,11 @@ button:hover {
 }
 
 .menu-item.active {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .container .menu-item { 
-  width: 140px; 
+  width: 145px; 
 }
 
 .top-navbar{
@@ -2666,19 +2648,19 @@ button:hover {
 
 /*TITLE PARTS*/
 .hero-left h1 {
-  font-size: 18px;
-  margin-top: 15px;
+  font-size: 22px;
+  margin-top: 20px;
   margin-bottom: 15px;
   color: #22304d;
 }
 
 .hero-left h2 {
-  font-size: 15px;
+  font-size: 17px;
   color: #22304d;
 }
 
 .hero-left p {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 1.8;
   text-align: justify;
@@ -2736,19 +2718,18 @@ button:hover {
 .card-text h3 {
   margin-top: -1px;
   color: #22304d;
-  font-size: 15px;
+  font-size: 16px;
   margin-left: 2px;
 }
 
 .card-text p {
-  margin-bottom: -5px;
+  margin-bottom: 1px;
   margin-left: 2px;
   margin-top: -8px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
   font-weight: 500;
   color: #5F6E85;
-  text-align: justify;
   max-width: 190px;
   margin-right: 1px;
 }
@@ -2886,15 +2867,15 @@ button:hover {
 }
 
 .notes-text h2{
-  font-size: 15px;
+  font-size: 17px;
   margin-bottom: 10px;
-  margin-top: 15px;
+  margin-top: 20px;
   color: black;
   font-weight: 800;
 }
 
 .notes-text p{
-  font-size: 13px;
+  font-size: 15px;
   margin-bottom: 10px;
   text-align: justify;
   color: #22304d;
@@ -2954,8 +2935,8 @@ button:hover {
 
 /* ICON */
 .topic-icon {
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   border-radius: 15px;
   margin-top: 2px;
   margin-right: 10px;
@@ -2968,7 +2949,7 @@ button:hover {
 }
 
 .topic-icon i {
-  font-size: 20px;
+  font-size: 21px;
 }
 
 /* ICON CICLE COLORS */
@@ -3020,7 +3001,7 @@ button:hover {
 }
 
 .topic-info h3 {
-  font-size: 14px;
+  font-size: 15px;
   max-width: 200px;
   width: 96%;
   margin-right: 2px;
@@ -3030,7 +3011,7 @@ button:hover {
 }
 
 .topic-info p {
-  font-size: 11px;
+  font-size: 13px;
   color: #4d5b73;
   margin-top: -5px;
 }
@@ -3047,7 +3028,7 @@ button:hover {
 
 /* OPEN BADGE */
 .slides-badge {
-  font-size: 11px;
+  font-size: 12px;
   padding: 6px 16px;
   border-radius: 25px;
   margin-left: -2px;
@@ -3162,8 +3143,8 @@ button:hover {
 }
 
 .video-page-title{
-  font-size: 15px;
-  margin-top: 10px;
+  font-size: 17px;
+  margin-top: 15px;
   margin-left: 14px;
   font-weight: 800;
   color: black;
@@ -3171,7 +3152,7 @@ button:hover {
 }
 
 .video-description{
-  font-size: 13px;
+  font-size: 15px;
   color: #22304d;
   line-height: 1.8;
   text-align: justify;
@@ -3219,7 +3200,7 @@ button:hover {
 }
 
 .video-left h3{
-  font-size: 15px;
+  font-size: 16px;
   color: #24314f;
   margin-top: -2px;
   margin-bottom: -2px;
@@ -3227,7 +3208,7 @@ button:hover {
 
 .video-left p{
   margin: 2px 0 0;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.4;
   color: #4d5b73;
   margin-right: 10px;
@@ -3254,7 +3235,7 @@ button:hover {
 }
 
 .video-icon i{
-  font-size: 20px;
+  font-size: 21px;
   color: inherit;
 }
 
@@ -3295,7 +3276,7 @@ button:hover {
 .watch-btn{
   background: #dff4e7;
   color: #2e9b59;
-  font-size: 10px;
+  font-size: 12px;
   border: 1px solid;
   min-width: 65px;
   padding: 6px 18px;
@@ -3469,8 +3450,8 @@ button:hover {
 }
 
 .worksheet-icon{
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   border-radius: 12px;
   display:flex;
   align-items:center;
@@ -3481,12 +3462,12 @@ button:hover {
 }
 
 .worksheet-icon i{
-    font-size: 20px;
-    color: inherit;
+  font-size: 21px;
+  color: inherit;
 }
 
 .worksheet-left h3{
-  font-size: 15px;
+  font-size: 16px;
   max-width: 650px;
   color: #24314f;
   line-height: 1.5;
@@ -3498,7 +3479,7 @@ button:hover {
 .worksheet-left p{
   margin: 2px 0 0;
   margin-left: -1px;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.4;
   margin-right: 5px;
   color: #4d5b73;
@@ -3512,7 +3493,7 @@ button:hover {
 }
 
 .worksheet-badge{
-  font-size: 11px;
+  font-size: 12px;
   padding: 6px 16px;
   border-radius: 25px;
   font-weight: 600;
@@ -3532,16 +3513,13 @@ button:hover {
 
 /*QUIZ SECTION*/
 .quiz-top-section{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  margin-left: 0;
+  flex-wrap: wrap;
 }
 
 .quiz-title {
   color: black;
   margin-left: -5px;
-  font-size: 15px;
+  font-size: 17px;
   margin-top: 15px;
   margin-bottom: 10px;
   flex-shrink: 0;
@@ -3549,10 +3527,11 @@ button:hover {
 }
 
 .quiz-section-description {
-  font-size: 12px;
+  width: 91%;
+  font-size: 15px;
   margin-bottom: 10px;
   margin-left: -5px;
-  margin-right: 40px;
+  margin-right: 30px;
   color: #22304d;
   line-height: 1.8;
   text-align: justify;
@@ -3596,8 +3575,8 @@ button:hover {
 }
 
 .quiz-icon {
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   border-radius: 15px;
   font-size: 23px;
   flex-shrink: 0;
@@ -3611,16 +3590,17 @@ button:hover {
 
 .quiz-text h3 {
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
   color: #1f2d4a;
   margin-bottom: -5px;
-  margin-top: -2px;
+  margin-top: -5px;
 }
 
 .quiz-text p {
+  margin-top: 10px;
   margin-bottom: -5px;
   margin-right: 5px;
-  font-size: 12px;
+  font-size: 15px;
   color: #4d5b73;
   line-height: 1.4;
 }
@@ -3628,7 +3608,7 @@ button:hover {
 .quiz-status {
   margin-left: auto;
   padding: 6px 16px;
-  font-size: 11px;
+  font-size: 12px;
   margin-right: 5px;
   background: #dff5e7;
   color: #2e8b57;
