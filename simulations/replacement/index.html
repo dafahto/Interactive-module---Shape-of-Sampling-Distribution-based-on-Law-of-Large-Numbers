@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sampling Simulation</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Sampling With & Without Replacement</h1>
+    <div class="simulation-description">
+
+    <h2>This simulation demonstrates the difference between sampling with replacement and sampling without replacement.
+    Click the <b>Draw Sample</b> button repeatedly and observe the selected balls.</h2>
+        
+</div>
+
+    <div class="simulation-wrapper">
+
+<!-- WITH REPLACEMENT -->
+<div class="simulation-card">
+
+<div class="section-title blue">
+
+    <div class="title-icon">
+        <i class="fas fa-repeat"></i>
+    </div>
+
+    <div class="title-content">
+        <h2>With Replacement</h2>
+        <div class="title-line"></div>
+    </div>
+
+</div>
+
+    <p>The selected ball is returned to the population and may be selected again.</p>
+
+    <button onclick="drawWith()">
+        Draw Sample
+    </button>
+
+<div class="draw-area">
+
+    <div class="hand-wrapper" id="handWrapperWith">
+
+        <img src="../../images/hand.png"
+        class="hand"
+        id="handWith">
+
+        <div id="pickedBallWith" class="picked-ball picked-ball-blue"></div>
+
+    </div>
+
+    <div class="raffle-box">
+
+    <div class="population-label">
+        Population
+    </div>
+
+        <div class="lid-hole"></div>
+
+        <div class="balls">
+
+            <div class="ball">1</div>
+            <div class="ball">2</div>
+            <div class="ball">3</div>
+            <div class="ball">4</div>
+            <div class="ball">5</div>
+            <div class="ball">6</div>
+            <div class="ball">7</div>
+            <div class="ball">8</div>
+            <div class="ball">9</div>
+            <div class="ball">10</div>
+
+        </div>
+    </div>
+</div> <!-- draw-area -->
+
+<div class="result-area">
+
+<div class="result-title result-title-blue">
+
+    <div class="result-icon">
+        <i class="fa-solid fa-chart-column"></i>
+    </div>
+
+    <span>Selected Balls</span>
+
+</div>
+
+<div id="resultWith" class="result-box">
+
+    <span class="result-placeholder">
+        No balls selected yet
+    </span>
+
+</div>
+</div>
+</div>
+
+
+
+<!-- WITHOUT REPLACEMENT -->
+<div class="simulation-card">
+
+<div class="section-title purple">
+    
+    <div class="title-icon purple">
+        <i class="fas fa-ban"></i>
+    </div>
+
+    <div class="title-content purple">
+        <h2>Without Replacement</h2>
+    <div class="title-line purple"></div>
+    
+    </div>
+</div>
+
+    <p>The selected ball is removed from the population and cannot be selected again.</p>
+
+    <button onclick="drawWithout()">
+        Draw Sample
+    </button>
+
+    <div class="draw-area">
+
+        <div class="hand-wrapper" id="handWrapperWithout">
+
+            <img
+            src="../../images/hand.png"
+            class="hand"
+            id="handWithout">
+
+            <div id="pickedBallWithout" class="picked-ball picked-ball-purple"></div>
+
+        </div>
+
+        <div class="raffle-box purple">
+
+        <div class="population-label purple">
+            Population
+        </div>
+
+        <div class="lid-hole purple"></div>
+
+        <div class="balls" id="withoutBalls">
+
+            <div class="ball purple" data-number="1">1</div>
+            <div class="ball purple" data-number="2">2</div>
+            <div class="ball purple" data-number="3">3</div>
+            <div class="ball purple" data-number="4">4</div>
+            <div class="ball purple" data-number="5">5</div>
+            <div class="ball purple" data-number="6">6</div>
+            <div class="ball purple" data-number="7">7</div>
+            <div class="ball purple" data-number="8">8</div>
+            <div class="ball purple" data-number="9">9</div>
+            <div class="ball purple" data-number="10">10</div>
+
+        </div>
+    </div>
+</div> <!-- draw-area -->
+
+<div class="result-area result-area-purple">
+
+<div class="result-title result-title-purple">
+
+<div class="result-icon result-icon-purple">
+    <i class="fa-solid fa-chart-column"></i>
+</div>
+
+        Selected Balls
+
+    </div>
+
+<div id="resultWithout" class="result-box result-box-purple">
+
+    <span class="result-placeholder">
+        No balls selected yet
+    </span>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="reset-area">
+
+    <button
+    class="reset-btn"
+    onclick="resetSimulation()">
+
+        <i class="fa-solid fa-rotate-right"></i>
+        Reset Simulation
+
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+<script>
+document.body.addEventListener("click", () => {
+    parent.postMessage("simulationClicked", "*");
+});
+</script>
+
+</body>
+</html>

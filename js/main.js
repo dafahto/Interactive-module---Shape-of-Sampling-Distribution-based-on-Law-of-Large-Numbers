@@ -442,13 +442,188 @@ if (section === "videos") {
 
 if (section === "simulations") {
 
-  content.classList.add("simulation-mode");
+content.innerHTML = `
 
-  content.innerHTML = `
-    <iframe src="simulations/index.html" 
-      style="width:100%; height:100%; border:none;">
-    </iframe>
-  `;
+<div class="simulation-page">
+
+    <div class="simulation-header">
+
+        <h1>Interactive Simulations</h1>
+
+        <p>
+            Choose a simulation to explore statistical concepts interactively.
+        </p>
+
+        <div class="title-line"></div>
+
+    </div>
+
+    <div class="simulation-grid">
+
+        <!-- Sampling Replacement -->
+
+        <div class="simulation-card-option"
+             onclick="loadContent('replacement')">
+
+            <div class="preview-wrapper">
+
+                <img src="images/replacement-preview.png"
+                     class="simulation-preview">
+
+                <div class="interactive-badge">
+                    ⚡ Interactive
+                </div>
+
+            </div>
+
+            <div class="simulation-content">
+
+                <div class="simulation-icon">
+                    🎲
+                </div>
+
+                <div>
+                <div class="simulation-wording">
+
+                    <h3>Sampling Replacement</h3>
+
+                    <p>
+                        Explore sampling with and without replacement
+                        and compare the results.
+                    </p>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="simulation-features">
+
+                <span>
+                    <i class="fa-solid fa-check"></i>
+                    With & Without Replacement
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-check"></i>
+                    Real-time Sampling Results
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-check"></i>
+                    Visual Comparison
+                </span>
+            </div>
+
+            <button class="launch-btn green-launch-btn"
+                    onclick="event.stopPropagation(); loadContent('replacement')">
+
+                Launch Simulation
+
+                <span>➜</span>
+
+            </button>
+
+        </div>
+
+
+        <!-- LLN -->
+
+        <div class="simulation-card-option"
+             onclick="loadContent('LLN')">
+
+            <div class="preview-wrapper">
+
+                <img src="images/lln-preview.png"
+                     class="simulation-preview">
+
+                <div class="interactive-badge blue">
+                    ⚡ Interactive
+                </div>
+
+            </div>
+
+            <div class="simulation-content">
+
+                <div class="simulation-icon blue-icon">
+                    📈
+                </div>
+
+                <div>
+                <div class="simulation-wording">
+                    <h3>LLN Simulator</h3>
+
+                    <p>
+                        Explore the Law of Large Numbers and observe
+                        how sample mean stabilizes.
+                    </p>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="simulation-features">
+
+                <span>
+                    <i class="fa-solid fa-check check-blue"></i>
+                    Dynamic Graph
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-check check-blue"></i>
+                    Adjustable Sample Size
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-check check-blue"></i>
+                    Multiple Distributions
+                </span>
+                
+                <span>
+                    <i class="fa-solid fa-check check-blue"></i>
+                    Real-time Visualization
+                </span>                
+
+            </div>
+
+            <button class="launch-btn blue-launch-btn"
+                    onclick="event.stopPropagation(); loadContent('LLN')">
+
+                Launch Simulation
+
+                <span>➜</span>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+`;
+}
+
+else if (section === "replacement") {
+
+   content.classList.add("simulation-mode");
+
+   content.innerHTML = `
+      <iframe
+      src="simulations/replacement/index.html"
+      style="width:100%;height:100%;border:none;">
+      </iframe>
+   `;
+}
+else if (section === "LLN") {
+
+   content.classList.add("simulation-mode");
+
+   content.innerHTML = `
+      <iframe
+      src="simulations/index.html"
+      style="width:100%;height:100%;border:none;">
+      </iframe>
+   `;
 }
 
 if (section === "worksheets") {
@@ -918,6 +1093,56 @@ content.addEventListener("click", () => {
     }
 })
 })
+
+function toggleSimulationMenu(){
+
+    const submenu =
+        document.getElementById("simulationSubmenu");
+
+    const simulationMenu =
+        document.getElementById("simulationMenu");
+
+    submenu.classList.toggle("show");
+
+    simulationMenu.classList.toggle("active");
+
+    loadContent("simulations");
+}
+
+function setActiveMenu(element) {
+
+    // reset menu utama
+    document.querySelectorAll(".menu-item").forEach(item => {
+        item.classList.remove("active");
+    });
+
+    // reset submenu sekali
+    document.querySelectorAll(".submenu-item").forEach(item => {
+        item.classList.remove("active");
+    });
+
+    // tutup submenu simulations
+    document.getElementById("simulationSubmenu")
+            .classList.remove("show");
+
+    element.classList.add("active");
+}
+
+function setActiveSubmenu(element){
+
+    document.querySelectorAll(".submenu-item").forEach(item => {
+        item.classList.remove("active");
+    });
+
+    document.querySelectorAll(".menu-item").forEach(item => {
+        item.classList.remove("active");
+    });
+
+    element.classList.add("active");
+
+    document.querySelector(".menu-item:nth-of-type(3)")
+        .classList.add("active");
+}
 
 window.addEventListener("message", (event) => {
 

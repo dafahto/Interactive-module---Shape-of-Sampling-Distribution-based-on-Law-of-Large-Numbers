@@ -26,10 +26,30 @@
     <span class="text">Videos</span>
     </div>
 
-    <div class="menu-item" onclick="setActiveMenu(this); loadContent('simulations')">
+<div id="simulationMenu"
+    class="menu-item"
+    onclick="toggleSimulationMenu()">
+
     <i class="fa-solid fa-sliders"></i>
     <span class="text">Simulations</span>
-    </div>
+
+</div>
+
+<div class="submenu" id="simulationSubmenu">
+
+<div class="submenu-item"
+     onclick="setActiveSubmenu(this); loadContent('replacement')">
+    <i class="fa-solid fa-dice"></i>
+    <span>Sampling Replacement</span>
+</div>
+
+<div class="submenu-item"
+     onclick="setActiveSubmenu(this); loadContent('LLN')">
+    <i class="fa-solid fa-chart-line"></i>
+    <span>LLN Simulator</span>
+</div>
+
+</div>
 
     <div class="menu-item" onclick="setActiveMenu(this); loadContent('worksheets')">
     <i class="fa-solid fa-file-lines"></i>
