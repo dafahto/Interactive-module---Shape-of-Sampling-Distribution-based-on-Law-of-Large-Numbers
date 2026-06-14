@@ -153,7 +153,7 @@ if (section === "notes") {
 
           <div class="topic-info">
             <h3>Topic 1: Introduction to Sampling Distribution</h3>
-            <p>📑 10 Slides</p>
+            <p>📑 11 Slides</p>
           </div>
         </div>
 
@@ -450,8 +450,7 @@ content.innerHTML = `
 
         <!-- Sampling Replacement -->
 
-        <div class="simulation-card-option"
-             onclick="loadContent('replacement')">
+        <div class="simulation-card-option">
 
             <div class="preview-wrapper">
 
@@ -516,9 +515,8 @@ content.innerHTML = `
 
         <!-- LLN -->
 
-        <div class="simulation-card-option"
-             onclick="loadContent('LLN')">
-
+        <div class="simulation-card-option">
+        
             <div class="preview-wrapper">
 
                 <img src="images/lln-preview.PNG"
