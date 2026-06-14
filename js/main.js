@@ -1,17 +1,5 @@
-// LOGIN FUNCTION
-function login() {
-  const name = document.getElementById("name").value;
-  const matric = document.getElementById("matric").value;
-
-  if (name === "" || matric === "") {
-    alert("Please enter your name and matric number.");
-    return;
-  }
-
-  localStorage.setItem("studentName", name);
-  localStorage.setItem("studentMatric", matric);
-
-  window.location.href = "dashboard.html";
+function startModule(){
+    window.location.href = "dashboard.html";
 }
 
 function setActiveMenu(element) {
