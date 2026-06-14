@@ -533,7 +533,7 @@ content.innerHTML = `
 
             <div class="preview-wrapper">
 
-                <img src="images/lln-preview.png"
+                <img src="images/lln-preview.PNG"
                      class="simulation-preview">
 
                 <div class="interactive-badge blue">
