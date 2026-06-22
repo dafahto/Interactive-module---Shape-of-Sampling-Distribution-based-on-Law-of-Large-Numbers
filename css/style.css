@@ -3033,7 +3033,7 @@ button:hover {
 
 .content{
   background-image: url("../images/bg-dashboard.png");
-  background-size: 550px auto;
+  background-size: 650px auto;
   background-position: top 110px center;
   background-repeat: no-repeat;
 }
@@ -3153,8 +3153,9 @@ button:hover {
   gap: 10px;
   margin-left: -5px;
   margin-right: 20px;
-  max-width: 440px;
-  width: 92%;
+  max-width: 700px;
+  width: 96%;
+  padding-right: 20px;
 }
 
 /*TITLE PARTS*/
@@ -3190,10 +3191,11 @@ button:hover {
 .dashboard-grid {
   gap: 8px;
   grid-template-columns: 1fr;  
-  max-width: 440px;
-  width: 94%;
+  max-width: 700px;
+  width: 98%;
   padding-bottom: 70px;
   margin-left: -10px;
+  padding-right: 10px;
 }
 
 .dashboard-card {
@@ -3226,6 +3228,11 @@ button:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.03);
 }
 
+.card-text{
+  flex: 1;
+  min-width: 0;
+}
+
 .card-text h3 {
   margin-top: -1px;
   color: #22304d;
@@ -3241,8 +3248,8 @@ button:hover {
   line-height: 1.5;
   font-weight: 500;
   color: #5F6E85;
-  max-width: 190px;
-  margin-right: 1px;
+  max-width: 650px;
+  margin-right: 10px;
 }
 
 .arrow {
@@ -3253,7 +3260,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   font-size: 19px;
-  margin-left: 20px;
+  margin-left: auto;
   margin-right: 10px;
   transition: 0.3s cubic-bezier(.22,1,.36,1);
   background:rgba(255,255,255,0.8);
@@ -3370,8 +3377,9 @@ button:hover {
   display: flex;
   flex-direction:column;
   margin-left: -5px;
-  max-width: 440px;
-  width: 95%;
+  max-width: 700px;
+  width: 98%;
+  padding-right: 10px;
 }
 .notes-text{
   flex-shrink: 0;
@@ -3391,7 +3399,7 @@ button:hover {
   text-align: justify;
   color: #22304d;
   line-height: 1.8;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .notes-hero-image {
@@ -3406,8 +3414,9 @@ button:hover {
   flex-direction:column;
   gap:10px;
   padding-bottom: 30px;
-  max-width: 440px;
-  width: 94%;
+  max-width: 700px;
+  width: 98%;
+  padding-right: 10px;
 }
 
 .notes-card{
@@ -3513,9 +3522,9 @@ button:hover {
 
 .topic-info h3 {
   font-size: 15px;
-  max-width: 200px;
+  max-width: 650px;
   width: 96%;
-  margin-right: 2px;
+  margin-right: 10px;
   color: #24314f;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -3639,8 +3648,9 @@ button:hover {
   border-radius: 15px;
   margin-top: 5px;
   margin-left: -20px;
-  max-width: 440px;
-  width: 94%;
+  max-width: 700px;
+  width: 98%;
+  padding-right: 10px;
   margin-bottom: -10px;
   display: flex;
   flex-direction:column;
@@ -3681,9 +3691,9 @@ button:hover {
 /*BOX BOX VIDEO*/
 .videos-list{
   padding-bottom: 30px;
-  max-width: 440px;
-  width: 94%;
-  padding-right: 10px;
+  max-width: 700px;
+  width: 98%;
+  padding-right: 20px;
 }
 
 .video-card{
@@ -3692,7 +3702,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 15px;
   border: 1px solid rgba(255,255,255,0.4);
   backdrop-filter: blur(10px);
   transition: 0.3s cubic-bezier(.22,1,.36,1);
@@ -3897,7 +3907,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  max-width: 440px;
+  max-width: 700px;
   width: 95%;
   background: #fff;
   padding: 15px;
@@ -3919,14 +3929,14 @@ button:hover {
   display:block;
   width:250px;
   margin:-20px auto 0 auto;
-  margin-left: 20px;
   align-items: center;
 }
 
 .worksheet-card{
-  max-width: 440px;
-  width: 95%;
+  max-width: 700px;
+  width: 96%;
   height: auto;
+  padding-right: 10px;
   padding: 14px;
   margin-left: -12px;
   margin-bottom: 10px;
@@ -4061,8 +4071,8 @@ button:hover {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
-  max-width: 440px;
-  width: 100%;
+  max-width: 700px;
+  width: 98%;
   padding-bottom: 30px;
   padding-right: 20px;
   margin-left: -10px;
